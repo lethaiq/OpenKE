@@ -7,4 +7,7 @@ isa 1
 result_of 23
 interacts_with 0
 isa 1
+result_of 23
+interacts_with 0
+isa 1
 result_of 2
