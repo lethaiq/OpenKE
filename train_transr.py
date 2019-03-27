@@ -7,7 +7,7 @@ import numpy as np
 #++++++++++++++TransE++++++++++++++++++++
 
 con = config.Config()
-con.set_in_path("./benchmarks/FB15K/")
+con.set_in_path("./benchmarks/umls_KE/")
 con.set_work_threads(4)
 con.set_train_times(500)
 con.set_nbatches(100)
@@ -27,7 +27,7 @@ parameters = con.get_parameters("numpy")
 
 conR = config.Config()
 #Input training files from benchmarks/FB15K/ folder.
-conR.set_in_path("./benchmarks/FB15K/")
+conR.set_in_path("./benchmarks/umls_KE/")
 #True: Input test files from the same folder.
 conR.set_test_link_prediction(True)
 conR.set_test_triple_classification(True)

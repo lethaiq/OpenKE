@@ -5,7 +5,7 @@ import numpy as np
 
 con = config.Config()
 #Input training files from benchmarks/FB15K/ folder.
-con.set_in_path("./benchmarks/FB15K/")
+con.set_in_path("./benchmarks/umls_KE/")
 #True: Input test files from the same folder.
 con.set_test_link_prediction(True)
 con.set_test_triple_classification(True)
