@@ -3,9 +3,11 @@ import models
 import tensorflow as tf
 import numpy as np
 
+import sys
+
 con = config.Config()
 #Input training files from benchmarks/FB15K/ folder.
-con.set_in_path("./benchmarks/umls_KE/")
+con.set_in_path("./benchmarks/umls{}/".format(sys.argv[1]))
 #True: Input test files from the same folder.
 con.set_test_link_prediction(True)
 con.set_test_triple_classification(True)

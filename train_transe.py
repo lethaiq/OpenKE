@@ -4,9 +4,11 @@ import tensorflow as tf
 import numpy as np
 
 #++++++++++++++TransE++++++++++++++++++++
+import sys
 
 con = config.Config()
-con.set_in_path("./benchmarks/umls_KE/")
+#Input training files from benchmarks/FB15K/ folder.
+con.set_in_path("./benchmarks/umls{}/".format(sys.argv[1]))
 con.set_test_link_prediction(True)
 con.set_test_triple_classification(True)
 
