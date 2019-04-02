@@ -1,0 +1,11 @@
+10
+affects 0
+causes 1
+interacts_with 2
+isa 3
+issue_in 4
+location_of 5
+part_of 6
+process_of 7
+produces 8
+result_of 9
