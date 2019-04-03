@@ -1,0 +1,16 @@
+15
+affects 0
+associated_with 1
+causes 2
+complicates 3
+disrupts 4
+interacts_with 5
+isa 6
+issue_in 7
+location_of 8
+measures 9
+part_of 10
+performs 11
+process_of 12
+produces 13
+result_of 14
